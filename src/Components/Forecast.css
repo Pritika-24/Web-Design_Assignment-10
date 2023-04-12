@@ -1,0 +1,16 @@
+.foreCastSection {
+    background-color: grey;
+    color: black;
+    width: 80vw;
+    margin: 5vh;
+}
+.hourtrack{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #D9D2E9;
+}
+
+.progress{
+    width: 69%;
+}

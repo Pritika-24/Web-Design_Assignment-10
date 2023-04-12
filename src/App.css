@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  background-color: #ffffff;
+  background-image: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-844297.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(5px);
+}
+
+.header {
+  height: 10vh;
+  background-color: #553973;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 5px solid #ffffff;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+  text-shadow: 2px 2px 4px #333333;
+}
+
+.locationInput {
+  height: 7vh;
+  width: 60vw;
+  font-size: 1.5em;
+  border-radius: 1em;
+  text-align: center;
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #333333;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  
+}
+
+.citySearch {
+  min-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-size: calc(10px + 2vmin);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #333333;
+  backdrop-filter: blur(5px);
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  gap: 3em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+li {
+  transition: all 0.2s ease-in-out;
+}
+
+li:hover {
+  transform: scale(1.2);
+  text-shadow: 2px 2px 4px #333333;
+}
+
+
+
+
